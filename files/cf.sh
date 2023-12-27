@@ -8,9 +8,9 @@ echo ""
 echo ""
 echo ""
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c3)
-read -rp "Input Domain Name. Example ( BayuVpn211 ): " -e sub
-DOMAIN=vpnvipshop.my.id
-SUB_DOMAIN=${sub}.vpnvipshop.my.id
+read -rp "Input Domain Name. Example ( DANSVPN ): " -e sub
+DOMAIN=dansplayer.my.id
+SUB_DOMAIN=${sub}.dansplayer.my.id
 CF_ID=danijhi098@gmail.com
 CF_KEY=8666f2f59e9ec458e5cdcd0cb4f7414a9a052
 set -euo pipefail
